@@ -1,4 +1,4 @@
-﻿double a, b, c, x1, x2, delta;
+double a, b, c, x1, x2, delta;
 Console.Clear();
 
 Console.WriteLine("Bem-vindo ao programa Bhaskara\n");  
@@ -10,6 +10,7 @@ a = Convert.ToDouble(Console.ReadLine());
 
 Console.Write("Digite o valor de b: ");
 b = Convert.ToDouble(Console.ReadLine());
+
 
 Console.Write("Digite o valor de c: ");
 c = Convert.ToDouble(Console.ReadLine());
