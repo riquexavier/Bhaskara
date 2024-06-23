@@ -2,8 +2,7 @@ double a, b, c, x1, x2, delta;
 Console.Clear();
 
 Console.WriteLine("Bem-vindo ao programa Bhaskara\n");
-Console.WriteLine("Aperte qualquer tecla para iniciar o programa (: \n");
-Console.ReadKey(true);
+Thread.Sleep(1000);
 
 Console.WriteLine("Abaixo encontra-se a fórmula de Bhaskara\n");
 
@@ -13,13 +12,18 @@ Console.WriteLine("                      - b  ±  √ b² - 4 * a * c");
 Console.WriteLine("              x  =  ---------------------------");
 Console.WriteLine("                              2 * a\n");
 
+Thread.Sleep(1500);
+
 Console.Write("Digite o valor de a: ");
 a = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine($"a={a} b=x c=x\n");
+Console.WriteLine($"a=x b=x c=x\n");
 
-if (a == 0)
+while (a == 0)
 {
     Console.WriteLine("'a' não pode ser zero ou a equação não é do segundo grau.");
+    Console.Write("Digite o valor de a: ");
+    a = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine($"a={a} b=x c=x\n");
 }
 
 Console.Write("Agora o valor de b: ");

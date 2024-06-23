@@ -9,5 +9,6 @@ Para instalar o projeto *Cálculo Bhaskara*, siga as instruções abaixo (funcio
 1. Faça o download clicando
     [***aqui***](<../../../../Downloads/Bhaskara 2.0.exe>).
 2. abra o aquivo meu programa.exe
+---
 
-Calcule as raízes de uma equação de segundo grau, utilizando o método de Bhaskara.
+## *Utilização*
