@@ -50,9 +50,11 @@ delta = b * b - 4 * a * c;
 x1 = (-b + Math.Sqrt(delta)) / (2 * a);
 x2 = (-b - Math.Sqrt(delta)) / (2 * a);
 
-if (delta < 0)
+while (delta < 0)
 {
     Console.WriteLine($"Como delta {delta} é menor que zero, a equação não possui raízes reais.\n");
+    Console.WriteLine("Se deseja encerrar o programa digite E, caso deseje voltar ao início digite S?");
+    Console.ReadLine
 }
 
 if (delta > 0)
